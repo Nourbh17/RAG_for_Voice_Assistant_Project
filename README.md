@@ -105,15 +105,15 @@ Lors de mes tests de détection du son, j'ai rencontré certaines difficultés, 
 
 ## Structure des fichiers : 
 
-- main.py : Point d'entrée pour exécuter l'application.
+`- main.py` : Point d'entrée pour exécuter l'application.
   
-- voice_assistant.py : Contient la logique principale pour gérer l'entrée audio, le traitement et la sortie.
+`- voice_assistant.py` : Contient la logique principale pour gérer l'entrée audio, le traitement et la sortie.
   
-- text_to_speech.py : Contient la fonction pour convertir le texte en parole.
+`- text_to_speech.py` : Contient la fonction pour convertir le texte en parole.
   
-- ingest.py : Pour ingérer des embeddings dans la base de données Qdrant.
+`- ingest.py` : Pour ingérer des embeddings dans la base de données Qdrant.
   
-- rag.py : Contient la logique pour le modèle RAG (Retrieval-Augmented Generation).
+`- rag.py` : Contient la logique pour le modèle RAG (Retrieval-Augmented Generation).
 
 ## Instruction d’utilisation : 
 
