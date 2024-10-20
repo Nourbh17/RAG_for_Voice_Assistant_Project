@@ -149,9 +149,9 @@ DEEPGRAM_API_KEY=""
 GROQ_API_KEY=""
 ```
 
-4.Installez FFmpeg : Assurez-vous que FFmpeg est installé et ajouté au PATH de votre système. Vous pouvez le télécharger à partir de FFmpeg Download.
+4. Installez FFmpeg : Assurez-vous que FFmpeg est installé et ajouté au PATH de votre système. Vous pouvez le télécharger à partir de FFmpeg Download.
 
-5.Configuration de Qdrant
+5. Configuration de Qdrant : 
 
 Exécutez Qdrant avec Docker : Assurez-vous que Docker est installé et en cours d'exécution. Lancez la commande suivante pour exécuter Qdrant :
 
@@ -161,10 +161,10 @@ docker run -p 6333:6333 qdrant/qdrant
 
 Accédez au tableau de bord de Qdrant : Ouvrez votre navigateur et accédez au lien suivant : `http://localhost:6333/dashboard#/collections`
 
-Ingestion des embeddings : Lancez le script d'ingestion pour commencer à ajouter des embeddings à la base de données :
+6. Ingestion des embeddings : Lancez le script d'ingestion pour commencer à ajouter des embeddings à la base de données :
 
 ```bash
 python ingest.py
 ```
 
-5.Lancer l'application 
+7. Lancer l'application 
