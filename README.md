@@ -65,7 +65,13 @@ Après avoir évalué ces performances, j'ai conclu que le meilleur choix pour m
 
 #### Quelques résultats avec Groq :
 
-![image](https://github.com/user-attachments/assets/c46eeba7-a500-468d-aeb9-3aca3cee8d84)
+![image](https://github.com/user-attachments/assets/c46eeba7-a500-468d-aeb9-3aca3cee8d84) 
+
+![image](https://github.com/user-attachments/assets/3ca9c840-8c07-4d8d-815f-d1aa3dd20b57)
+
+![image](https://github.com/user-attachments/assets/95b3ae04-a7cf-487d-ad36-10b151ab8430)
+
+
 
 ## Optimisation des réponses du LLM :
 
