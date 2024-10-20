@@ -120,34 +120,34 @@ Lors de mes tests de détection du son, j'ai rencontré certaines difficultés, 
 #### Prérequis
 Assurez-vous d'avoir les outils et bibliothèques suivants installés :
 
-Python 3.7 ou supérieur
+- Python 3.7 ou supérieur
 
-Clé API Deepgram
+- Clé API Deepgram
 
-Clé API Groq 
+- Clé API Groq 
 
 Packages Python requis : pyaudio, websockets, pyttsx3, dotenv, openai, ffmpeg-python
 
-#####Installation
+##### Installation
 
 1. Clonez le dépôt :
 
-bash
-
-`cd voice-assistant`
+```bash
+cd voice-assistant
+```
 
 2. Installez les packages requis :
 
-bash
-
-`pip install -r requirements.txt`
+```bash
+pip install -r requirements.txt
+```
 
 3. Configurez les variables d'environnement : Créez un fichier .env dans le répertoire racine avec le contenu suivant :
 
-makefile
-
+```bash
 DEEPGRAM_API_KEY=""
 GROQ_API_KEY=""
+```
 
 4.Installez FFmpeg : Assurez-vous que FFmpeg est installé et ajouté au PATH de votre système. Vous pouvez le télécharger à partir de FFmpeg Download.
 
@@ -155,16 +155,16 @@ GROQ_API_KEY=""
 
 Exécutez Qdrant avec Docker : Assurez-vous que Docker est installé et en cours d'exécution. Lancez la commande suivante pour exécuter Qdrant :
 
-bash
+```bash
+docker run -p 6333:6333 qdrant/qdrant
+```
 
-`docker run -p 6333:6333 qdrant/qdrant`
-
-Accédez au tableau de bord de Qdrant : Ouvrez votre navigateur et accédez au lien suivant : http://localhost:6333/dashboard#/collections.
+Accédez au tableau de bord de Qdrant : Ouvrez votre navigateur et accédez au lien suivant : `http://localhost:6333/dashboard#/collections`
 
 Ingestion des embeddings : Lancez le script d'ingestion pour commencer à ajouter des embeddings à la base de données :
 
-bash
-
-`python ingest.py`
+```bash
+python ingest.py
+```
 
 5.Lancer l'application 
