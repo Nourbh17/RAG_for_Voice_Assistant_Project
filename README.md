@@ -96,6 +96,9 @@ Si les contextes récupérés sont vides, je vérifie cette condition avant de p
 
 ![image](https://github.com/user-attachments/assets/e596a65d-fcf9-4acb-b580-7d97f941860c)
 
+![image](https://github.com/user-attachments/assets/4ce95fb1-aad8-4a71-a4bf-59c5e3023c96)
+
+
 ### 2) Détection de silence : 
 
 ###### Amélioration de la détection de silence
